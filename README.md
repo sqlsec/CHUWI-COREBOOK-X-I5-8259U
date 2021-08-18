@@ -19,6 +19,34 @@ macOS Big Sur 11.5.2 + OpenCore 0.7.2
 
 My English is pool,If you are interested in it,You can read this article in my blog: [Chuwi 驰为 CoreBook X 14 inch 黑苹果记录分享](https://www.sqlsec.com/2021/08/corebook.html)
 
+## 更新记录
+
+### 2021-08-18 更新
+
+手上这台笔记本准备出掉了，最后几天再更新一波，此次更新感谢  @王刚、@维奇、@Hex.🇨🇳 大佬们的支持。本次更新主要完善如下：
+
+BIOS 里面可以手动开启**快充**：「Advanced」- 「Platform Settings」 -「Charging Method」
+
+- [x] 提高触控板三指触控的稳定性
+- [x]  精简无用的 ACPI
+- [x] 开盖自动唤醒（实际上之前的应该也可以 大概等几秒自动亮屏）
+- [x] 显示设置新增自动亮度感应，插充电器屏幕亮度会变高
+
+![自动亮度调节](imgs/自动亮度调节.png) 
+
+ 如果还有如下的部分有待完善：
+
+- [ ] F6、F7 功能按键调节亮度
+- [ ] 电池充电状态切换时间依然有一定延迟
+- [ ] 合盖息屏睡眠
+- [ ] 隔空投送传文件（已经有大佬开始硬改网卡了）
+- [ ] 自带声卡麦克风驱动，附上 HDAU_TOOL 的[声卡数据](files/alc_code.dat)  以及关系图：
+
+
+  ![alc_code](imgs/alc_code.png)
+
+国光黑果水平还没有这么厉害，仿冒声卡就触及到我的姿势盲区了，不过目前来看声卡麦克风并不是无解的，希望后面有大佬们接着完善这套驱动把。
+
 ## 驱动概览
 
 详细地文章记录情况可以看我的博客这篇文章：[Chuwi 驰为 CoreBook X 14 inch 黑苹果记录分享](https://www.sqlsec.com/2021/08/corebook.html) 
@@ -199,4 +227,3 @@ WiFi 国家地区代码正常为 CN，支持多个频道：
         </td>
     </tr>
 </table>
-
