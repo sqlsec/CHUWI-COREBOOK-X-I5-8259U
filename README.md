@@ -28,7 +28,8 @@ My English is pool,If you are interested in it,You can read this article in my b
 BIOS 里面可以手动开启**快充**：「Advanced」- 「Platform Settings」 -「Charging Method」
 
 - [x] 提高触控板三指触控的稳定性
-- [x]  精简无用的 ACPI
+- [x] 精简无用的 ACPI
+- [x] 修正 Command 按键映射，使之符合白苹果的键盘使用习惯 
 - [x] 开盖自动唤醒（实际上之前的应该也可以 大概等几秒自动亮屏）
 - [x] 显示设置新增自动亮度感应，插充电器屏幕亮度会变高
 
